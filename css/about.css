@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-image: url(../img/1BuvrxBnGikmON8NPwPpOQ.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    font-family:Open Sans Condensed;
+    text-align: justify;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+  opacity: 0.6;
+}
+.links{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 100px;
+    color: #000;
+}
+.nav:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+.links:hover{
+    color: #facc00;
+    transform: scale(1.1);
+    transition: all .4s;
+    padding-left: 70px;
+}
+.main{
+    opacity: 0.9;   
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.main-2{
+    opacity: 0.9;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    font-size: 25px;
+}
+.text-about{
+font-size: 26px;
+font-weight: 500;
+padding-left: 40px;
+padding-right: 40px;
+margin: 30px;
+}
+p{
+    margin-left: 30px;
+margin-right: 30px;
+}
+.h1-info-ob{
+    opacity: 0.8;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+.p-info{
+    background-color: white;
+    padding: 8px;
+    font-size: 26px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.inform{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+.button-1{
+    margin-right: 30px;    
+    font-size: 30px;  
+}
+.button{
+    padding-top: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}

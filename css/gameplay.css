@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-image: url(../img/1614860648_49-p-fon-pubg-75.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    font-family:Open Sans Condensed
+}
+.nav{
+    display: flex;
+    justify-content: center;
+  opacity: 0.6;
+}
+.links{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 100px;
+    color: #000;
+}
+.nav:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+.links:hover{
+    color: #facc00;
+    transform: scale(1.1);
+    transition: all .4s;
+    padding-left: 70px;
+}
+.main{
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.main-2{
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+}
+.text-about{
+font-size: 26px;
+font-weight: 570;
+}
+.h1-info{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 700px;
+    margin-left: 700px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.gif-text{
+    margin-bottom: 15px ;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 25px; 
+    padding: 0px;
+}
+p{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 560;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+ margin-left: 5px;
+}
+.h1-info2{
+    margin-top: 8px;
+  margin-bottom: 8px;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.p2{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 560;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 15px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.info{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.p1{
+    font-size: 35px;
+}

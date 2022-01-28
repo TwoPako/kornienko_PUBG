@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-image: url(../img/1579117864_1221.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    font-family:Open Sans Condensed
+}
+.nav{
+    display: flex;
+    justify-content: center;
+  opacity: 0.6;
+}
+.links{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 100px;
+    color: #000;
+}
+.nav:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+.links:hover{
+    color: #facc00;
+    transform: scale(1.1);
+    transition: all .4s;
+    padding-left: 70px;
+}
+.main{
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.main-2{
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+}
+.text-about{
+font-size: 26px;
+font-weight: 500;
+}
+.h1-info{
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 50px;
+    margin-left: 460px;
+    margin-right: 460px;
+    margin-bottom: 20px;
+}
+.gif-text{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.9;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p{
+    
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 500;
+
+}
+.build{
+    margin-bottom: 15px;
+    margin-left: 490px;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.link-more{
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: black;
+    border-radius: 50px;
+    background-color: white;
+  
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link-more:hover{
+        color: #facc00;
+        transform: scale(1.1);
+        transition: all .4s;
+        padding-left: 40px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}

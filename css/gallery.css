@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-image: url(../img/gallery/обои-pubg-на-рабочий-стол-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    font-family:Open Sans Condensed;
+    text-align: justify;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+  opacity: 0.6;
+}
+.links{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 100px;
+    color: #000;
+}
+.nav:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+.links:hover{
+    color: #facc00;
+    transform: scale(1.1);
+    transition: all .4s;
+    padding-left: 70px;
+}
+.main{
+    opacity: 0.9;   
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.main-2{
+    opacity: 0.9;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    font-size: 25px;
+}
+.text-about{
+font-size: 26px;
+font-weight: 500;
+padding-left: 40px;
+padding-right: 40px;
+margin: 30px;
+}
+p{
+    margin-left: 30px;
+margin-right: 30px;
+}
+.h1-info{
+    opacity: 0.8;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+.p-info{
+    background-color: white;
+    padding: 8px;
+    font-size: 26px;
+}
+.img-logo{
+text-align: center;
+padding-right: 100px;
+padding-bottom: 0px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.photo-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.photo-two{
+    display: flex;
+    justify-content: center;
+    max-width: 400;
+    max-height: 250;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-gallery{
+    max-width: 350px;
+    align-items: center;    
+    margin-bottom: 100px;
+}
+.carousel-inner{
+    margin-bottom: 25px;
+  max-height: 720px;
+ max-width: 1280px;
+ margin-left: 185px;
+ margin-top: 100px;
+}
+.h1-info{
+    margin-top: 30px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+.links{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 100px;
+    color: #000;
+}
+.links:hover{
+    color: #facc00;
+    transform: scale(1.1);
+    transition: all .4s;
+    padding-left: 70px;
+}
